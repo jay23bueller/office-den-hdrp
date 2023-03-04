@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 3507a2603f9db47af9517b0cf1ccac3e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Circle_009
+    100002: Circle_015
+    100004: Circle_017
+    100006: Circle_018
+    100008: Circle_019
+    100010: Circle_021
+    100012: Circle_022
+    100014: Circle_023
+    100016: Circle_024
+    100018: Circle_025
+    100020: Circle_026
+    100022: Circle_027
+    100024: Circle_028
+    100026: Circle_029
+    100028: //RootNode
+    100030: Plane_144
+    400000: Circle_009
+    400002: Circle_015
+    400004: Circle_017
+    400006: Circle_018
+    400008: Circle_019
+    400010: Circle_021
+    400012: Circle_022
+    400014: Circle_023
+    400016: Circle_024
+    400018: Circle_025
+    400020: Circle_026
+    400022: Circle_027
+    400024: Circle_028
+    400026: Circle_029
+    400028: //RootNode
+    400030: Plane_144
+    2100000: OfficeTools07_02
+    2300000: Circle_009
+    2300002: Circle_015
+    2300004: Circle_017
+    2300006: Circle_018
+    2300008: Circle_019
+    2300010: Circle_021
+    2300012: Circle_022
+    2300014: Circle_023
+    2300016: Circle_024
+    2300018: Circle_025
+    2300020: Circle_026
+    2300022: Circle_027
+    2300024: Circle_028
+    2300026: Circle_029
+    2300028: //RootNode
+    2300030: Plane_144
+    3300000: Circle_009
+    3300002: Circle_015
+    3300004: Circle_017
+    3300006: Circle_018
+    3300008: Circle_019
+    3300010: Circle_021
+    3300012: Circle_022
+    3300014: Circle_023
+    3300016: Circle_024
+    3300018: Circle_025
+    3300020: Circle_026
+    3300022: Circle_027
+    3300024: Circle_028
+    3300026: Circle_029
+    3300028: //RootNode
+    3300030: Plane_144
+    4300000: Plane_143
+    4300002: Circle_017
+    4300004: Plane_144
+    4300006: Circle_018
+    4300008: Circle_019
+    4300010: Circle_009
+    4300012: Circle_015
+    4300014: Circle_021
+    4300016: Circle_022
+    4300018: Circle_023
+    4300020: Circle_024
+    4300022: Circle_025
+    4300024: Circle_026
+    4300026: Circle_027
+    4300028: Circle_028
+    4300030: Circle_029
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OfficeTools07_02
+    second: {fileID: 2100000, guid: 630b1e4765b5f4840bf6b986bf6e25d7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
