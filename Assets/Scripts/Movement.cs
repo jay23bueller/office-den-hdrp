@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+
+    [SerializeField]
+    private Transform _cameraTransform;
+
     [Header("Mouse Sensitivity")]
     [Range(5f, 200f)]
     [SerializeField]
@@ -45,6 +49,13 @@ public class Movement : MonoBehaviour
 
         directionInput = directionInput.normalized * Time.deltaTime * _speed;
 
+        float worldUpInput = 0f;
+
+        if (Input.GetKey(KeyCode.Q))
+            worldUpInput = 1f;
+        else if (Input.GetKey(KeyCode.E))
+            worldUpInput = -1f;
+
         Vector2 mouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
 
         mouseInput.x *= _mouseXSensitivity;
@@ -59,8 +70,16 @@ public class Movement : MonoBehaviour
         transform.rotation = Quaternion.Euler(_currentPitch, _currentYaw, 0f);
 
         transform.Translate(directionInput, Space.Self);
+        transform.Translate(worldUpInput * Vector3.up * _speed * Time.deltaTime, Space.World);
 
 
 
+
+    }
+
+    private void LateUpdate()
+    {
+        _cameraTransform.position = transform.position;
+        _cameraTransform.rotation = transform.rotation;
     }
 }
